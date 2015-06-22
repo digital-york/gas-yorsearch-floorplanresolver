@@ -1,0 +1,39 @@
+            <div class="clear">
+            &nbsp;
+        </div>
+        </div>
+        <div id="footer" style="font-size:100%">
+            <p class="left vcard">
+                <span class="org"><span class="organization-unit">University Library</span><br>
+                <span class="organization-name">University of York</span></span>, <span class="adr"><span class="locality">Heslington</span>, <span class=
+                "region">York</span>, <span class="postal-code">YO10 5DD</span>, <span class="country-name">UK</span></span><br>
+                Tel: <span class="tel"><span class="type hidden">work</span> <span class="value">+44 (0)1904 323873</span></span> | Fax: <span class=
+                "tel"><span class="type hidden">fax</span> <span class="value">+44 (0)1904 323866</span></span> | <a href=
+                "mailto:lib-enquiry@york.ac.uk"><span class="email">lib-enquiry@york.ac.uk</span></a>
+            </p>
+            <p class="right">
+                Last updated on 1 January 2015<br>
+                <a href="/docs/disclaimer/disclaimer.htm">Legal statements</a> | <a href="/library/forms/feedback/">Website
+                feedback</a><br>
+                &copy; 2015 University of York
+            </p>
+        </div>
+        <div class="clear">
+            &nbsp;
+        </div>
+        </div>
+     </div>
+  <!-- The closing div below is not required when using IFRAME sandbox mode -->
+   </div> 
+  
+<script>
+// This is required in order to allow the UoY search form to be submitted in NATIVE sandbox mode
+// Caja sanitizer adds an unwanted onsubmit="return false" to the form element, so we remove it
+try {
+  var el = document.querySelector('#header > form')
+  el.removeAttribute('onsubmit')
+} 
+catch (e) {
+  console.log(e);
+}
+</script>

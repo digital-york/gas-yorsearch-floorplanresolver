@@ -1,0 +1,31 @@
+<!-- Set to _blank because setting to _self can cause confusion as the target URL will be laoded within the iframe and the URl will not change in the browser address bar -->
+<base target="_blank" href="//www.york.ac.uk">
+<!-- The div below is not required when using IFRAME sandbox mode -->
+<div style="margin: 0; background-color: #f6f6f6; position: absolute; left: 0; top: 0; right: 0; height: 100%;">
+    <div id="container">
+        <div id="header">
+            <div id="location"><img alt="The University of York Library" src="/library/cfm/form_resources/leftside.png"></div>
+            <form action="/search" class="right" method="GET">
+                <label class="hidden" for="search" title="Place a cursor in the search field">Search</label>
+                <input id="search" maxlength="2048" name="q" size="14" title="Enter your search keywords" type="text" value="">
+                <input class="submit" name="btnG" title="Search the University of York website" type="submit" value="Search"> 
+                <input name="client" type="hidden" value="yorkweb"><input name="output" type="hidden" value="xml_no_dtd"><input name="proxystylesheet" type="hidden" value="yorkweb"><br>
+                <input checked="checked" class="radio" id="restrict" name="site" type="radio" value="library_main"> <label for="restrict">Library</label> 
+                <input class="radio" id="university" name="site" type="radio" value="yorkweb"> <label for="university">University</label>
+            </form>
+            <div class="clear">
+                &nbsp;
+            </div>
+            <div id="extra-links">
+                <p><span><a href="/" title="Link to University of York Homepage">University</a> | 
+                <a href="/about/departments/a-to-z/" title="Link to A to Z">A to Z</a> | <a href="/about/departments/" title="Link to Departments">Departments</a></span></p>
+            </div>
+            <div id="breadcrumb">
+                <ul>
+                    <li><a href="/" title="University homepage"><img src="/media/global/templateimages/home_white.gif" title="University homepage" alt="University homepage" width="13" height="10" border="0"></a></li>
+                    <li>&raquo; <a href="/library/" title="University Library homepage" title="Link to University of York Homepage">Library</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="gradient" id="content-container">
+            <div id="mdcolumn">
