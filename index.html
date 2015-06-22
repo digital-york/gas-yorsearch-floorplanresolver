@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<?!= include('styles'); ?>
+<?!= include('header'); ?>
+	<div id="floorplan-content">
+		<h1 class="content"><?= heading ?></h1>
+		<p class="content"><?= bodyText ?></p>
+		<? if (callNumber && httpResult == true) { ?>
+		<p class="content" style="font-weight: bold;">The shelf location is: <?= callNumber ?></p>
+		<? } ?>
+		<? if (imageLink) { ?>
+		<p><img class="content" src="<?= imageLink ?>" alt="Floorplan image"></p>
+		<? } ?>
+	</div>
+<?!= include('footer'); ?>
