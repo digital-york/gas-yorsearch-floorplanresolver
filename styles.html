@@ -1,0 +1,207 @@
+<!-- Styles are included here to avoid a flash of unstyled content that was occuring when linking to the departmental stylesheet, which included @import lines and may have contributed to the FOUC -->
+<style>
+* {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+font-size:100%;
+background-color:#F6F6F6;
+margin:5px;
+padding:0;
+}
+
+div#container {
+border:1px solid #ccc;
+width:960px;
+margin:4px auto;
+}
+
+div#header {
+background-color:#535e64;
+background-image:none;
+color:#fff;
+background-repeat:no-repeat;
+font-size:80%;
+width:100%;
+}
+
+div#location {
+margin-top:0;
+float:left;
+margin-right:15px;
+width:58%;
+}
+
+div#header form {
+float:right;
+text-align:right;
+width:32%;
+margin:0;
+padding:14px 14px 14px 6px;
+}
+
+div#header form label {
+margin-right:3px;
+}
+
+.hidden {
+height:1px;
+left:0;
+overflow:hidden;
+position:absolute;
+top:-500px;
+width:1px;
+}
+
+div#header form input {
+margin-bottom:8px;
+padding-bottom:2px;
+font-size:100%;
+height:auto;
+color:#000;
+vertical-align:middle;
+}
+
+input[type="submit"],.theButtons {
+border-radius:5px;
+cursor:pointer;
+}
+
+div#header form input.submit,.theButtons {
+background-color:#97217a;
+border:1px solid #5a0445;
+color:#fff;
+}
+
+div#extra-links {
+background-color:#a7b3ba;
+border-bottom:1px solid #fff;
+border-top:1px solid #fff;
+width:100%;
+color:#FFF;
+}
+
+div#extra-links p {
+margin:0 12px;
+padding:5px;
+}
+
+div#extra-links p span {
+background-color:#9ca7ae;
+color:#000;
+padding:4px 9px;
+}
+
+div#extra-links p span a:link,div#extra-links p span a:visited {
+color:#000;
+}
+
+div#extra-links p span a:link {
+text-decoration:none;
+}
+
+div#mdcolumn a:link,div#footer a:link,a:link {
+color:#8e1872;
+}
+
+div#breadcrumb {
+background-color:#97217a;
+color:#fff;
+font-size:10.8833px;
+border-bottom:1px solid #fff;
+width:100%;
+padding:5px 0;
+}
+
+div#breadcrumb ul {
+margin:0 17px;
+padding:0;
+}
+
+div#breadcrumb ul li {
+display:inline;
+line-height:190%;
+list-style-type:none;
+word-wrap:normal;
+padding:0;
+}
+
+div#breadcrumb a {
+color: #FFF;
+text-decoration: none;
+}
+
+div#breadcrumb > ul > li:nth-child(2) > a:hover {text-decoration: underline;}
+
+div#content-container {
+background-color:#fff;
+color:#222;
+font-size:80%;
+padding-bottom:5px;
+position:relative;
+width:100%;
+}
+
+div#mdcolumn {
+height:1%;
+background-color:#fff;
+overflow:visible;
+margin:0 20px;
+padding:20px 0;
+}
+
+div#mdcolumn h1,div#mdcolumn form h3 {
+color:#97217a;
+font-size:130%;
+font-weight:700;
+margin:8px 0;
+}
+
+div#footer {
+border-top:1px solid #d5d5d5;
+font-size:80%;
+color:#4d4d4d;
+padding-bottom:8px;
+width:100%;
+}
+
+div#footer p.left {
+float:left;
+margin:8px 14px 8px 10px;
+}
+
+div#footer p.right {
+float:right;
+margin:8px 10px 8px 14px;
+}
+
+div#footer a {
+text-decoration:none;
+}
+
+div#footer a:visited {
+color: #5b0b32;
+}
+
+div#footer a:hover {
+text-decoration:underline;
+}
+
+.clear {
+clear:both;
+float:none;
+font-size:1px;
+height:0;
+line-height:0;
+}
+
+div#mdcolumn p,div#mdcolumn ul li,div#mdcolumn ol li,div#mdcolumn ul li ul li,div#mdcolumn ol li ol li,div#footer p {
+line-height:140%;
+}
+
+.content {
+visibility: hidden;
+}
+
+</style>
